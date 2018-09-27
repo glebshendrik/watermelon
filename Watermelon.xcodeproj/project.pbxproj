@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5B03F1B215D38A2000CD539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F1A215D38A2000CD539 /* AppDelegate.swift */; };
+		B5B03F1D215D38A2000CD539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F1C215D38A2000CD539 /* ViewController.swift */; };
+		B5B03F20215D38A2000CD539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B03F1E215D38A2000CD539 /* Main.storyboard */; };
+		B5B03F23215D38A2000CD539 /* Watermelon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F21215D38A2000CD539 /* Watermelon.xcdatamodeld */; };
+		B5B03F25215D38A5000CD539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B03F24215D38A5000CD539 /* Assets.xcassets */; };
+		B5B03F28215D38A5000CD539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B03F26215D38A5000CD539 /* LaunchScreen.storyboard */; };
+		B5B03F33215D38A5000CD539 /* WatermelonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F32215D38A5000CD539 /* WatermelonTests.swift */; };
+		B5B03F3E215D38A5000CD539 /* WatermelonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F3D215D38A5000CD539 /* WatermelonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5B03F2F215D38A5000CD539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B03F0F215D38A2000CD539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B03F16215D38A2000CD539;
+			remoteInfo = Watermelon;
+		};
+		B5B03F3A215D38A5000CD539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B03F0F215D38A2000CD539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B03F16215D38A2000CD539;
+			remoteInfo = Watermelon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5B03F17215D38A2000CD539 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B03F1A215D38A2000CD539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5B03F1C215D38A2000CD539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5B03F1F215D38A2000CD539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5B03F22215D38A2000CD539 /* Watermelon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Watermelon.xcdatamodel; sourceTree = "<group>"; };
+		B5B03F24215D38A5000CD539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5B03F27215D38A5000CD539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5B03F29215D38A5000CD539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B03F2E215D38A5000CD539 /* WatermelonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B03F32215D38A5000CD539 /* WatermelonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonTests.swift; sourceTree = "<group>"; };
+		B5B03F34215D38A5000CD539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B03F39215D38A5000CD539 /* WatermelonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B03F3D215D38A5000CD539 /* WatermelonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonUITests.swift; sourceTree = "<group>"; };
+		B5B03F3F215D38A5000CD539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B03F14215D38A2000CD539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B03F2B215D38A5000CD539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B03F36215D38A5000CD539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5B03F0E215D38A2000CD539 = {
+			isa = PBXGroup;
+			children = (
+				B5B03F19215D38A2000CD539 /* Watermelon */,
+				B5B03F31215D38A5000CD539 /* WatermelonTests */,
+				B5B03F3C215D38A5000CD539 /* WatermelonUITests */,
+				B5B03F18215D38A2000CD539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B03F18215D38A2000CD539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B03F17215D38A2000CD539 /* Watermelon.app */,
+				B5B03F2E215D38A5000CD539 /* WatermelonTests.xctest */,
+				B5B03F39215D38A5000CD539 /* WatermelonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B03F19215D38A2000CD539 /* Watermelon */ = {
+			isa = PBXGroup;
+			children = (
+				B5B03F1A215D38A2000CD539 /* AppDelegate.swift */,
+				B5B03F1C215D38A2000CD539 /* ViewController.swift */,
+				B5B03F1E215D38A2000CD539 /* Main.storyboard */,
+				B5B03F24215D38A5000CD539 /* Assets.xcassets */,
+				B5B03F26215D38A5000CD539 /* LaunchScreen.storyboard */,
+				B5B03F29215D38A5000CD539 /* Info.plist */,
+				B5B03F21215D38A2000CD539 /* Watermelon.xcdatamodeld */,
+			);
+			path = Watermelon;
+			sourceTree = "<group>";
+		};
+		B5B03F31215D38A5000CD539 /* WatermelonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B03F32215D38A5000CD539 /* WatermelonTests.swift */,
+				B5B03F34215D38A5000CD539 /* Info.plist */,
+			);
+			path = WatermelonTests;
+			sourceTree = "<group>";
+		};
+		B5B03F3C215D38A5000CD539 /* WatermelonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B03F3D215D38A5000CD539 /* WatermelonUITests.swift */,
+				B5B03F3F215D38A5000CD539 /* Info.plist */,
+			);
+			path = WatermelonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B03F16215D38A2000CD539 /* Watermelon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B03F42215D38A5000CD539 /* Build configuration list for PBXNativeTarget "Watermelon" */;
+			buildPhases = (
+				B5B03F13215D38A2000CD539 /* Sources */,
+				B5B03F14215D38A2000CD539 /* Frameworks */,
+				B5B03F15215D38A2000CD539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermelon;
+			productName = Watermelon;
+			productReference = B5B03F17215D38A2000CD539 /* Watermelon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5B03F2D215D38A5000CD539 /* WatermelonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B03F45215D38A5000CD539 /* Build configuration list for PBXNativeTarget "WatermelonTests" */;
+			buildPhases = (
+				B5B03F2A215D38A5000CD539 /* Sources */,
+				B5B03F2B215D38A5000CD539 /* Frameworks */,
+				B5B03F2C215D38A5000CD539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5B03F30215D38A5000CD539 /* PBXTargetDependency */,
+			);
+			name = WatermelonTests;
+			productName = WatermelonTests;
+			productReference = B5B03F2E215D38A5000CD539 /* WatermelonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5B03F38215D38A5000CD539 /* WatermelonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B03F48215D38A5000CD539 /* Build configuration list for PBXNativeTarget "WatermelonUITests" */;
+			buildPhases = (
+				B5B03F35215D38A5000CD539 /* Sources */,
+				B5B03F36215D38A5000CD539 /* Frameworks */,
+				B5B03F37215D38A5000CD539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5B03F3B215D38A5000CD539 /* PBXTargetDependency */,
+			);
+			name = WatermelonUITests;
+			productName = WatermelonUITests;
+			productReference = B5B03F39215D38A5000CD539 /* WatermelonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B03F0F215D38A2000CD539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gleb Shendrik";
+				TargetAttributes = {
+					B5B03F16215D38A2000CD539 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B5B03F2D215D38A5000CD539 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B5B03F16215D38A2000CD539;
+					};
+					B5B03F38215D38A5000CD539 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B5B03F16215D38A2000CD539;
+					};
+				};
+			};
+			buildConfigurationList = B5B03F12215D38A2000CD539 /* Build configuration list for PBXProject "Watermelon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5B03F0E215D38A2000CD539;
+			productRefGroup = B5B03F18215D38A2000CD539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B03F16215D38A2000CD539 /* Watermelon */,
+				B5B03F2D215D38A5000CD539 /* WatermelonTests */,
+				B5B03F38215D38A5000CD539 /* WatermelonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5B03F15215D38A2000CD539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B03F28215D38A5000CD539 /* LaunchScreen.storyboard in Resources */,
+				B5B03F25215D38A5000CD539 /* Assets.xcassets in Resources */,
+				B5B03F20215D38A2000CD539 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B03F2C215D38A5000CD539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B03F37215D38A5000CD539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B03F13215D38A2000CD539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B03F1D215D38A2000CD539 /* ViewController.swift in Sources */,
+				B5B03F23215D38A2000CD539 /* Watermelon.xcdatamodeld in Sources */,
+				B5B03F1B215D38A2000CD539 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B03F2A215D38A5000CD539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B03F33215D38A5000CD539 /* WatermelonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B03F35215D38A5000CD539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B03F3E215D38A5000CD539 /* WatermelonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5B03F30215D38A5000CD539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B03F16215D38A2000CD539 /* Watermelon */;
+			targetProxy = B5B03F2F215D38A5000CD539 /* PBXContainerItemProxy */;
+		};
+		B5B03F3B215D38A5000CD539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B03F16215D38A2000CD539 /* Watermelon */;
+			targetProxy = B5B03F3A215D38A5000CD539 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5B03F1E215D38A2000CD539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B03F1F215D38A2000CD539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5B03F26215D38A5000CD539 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B03F27215D38A5000CD539 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5B03F40215D38A5000CD539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5B03F41215D38A5000CD539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5B03F43215D38A5000CD539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS6P2FQ228;
+				INFOPLIST_FILE = Watermelon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = glebshendrik.Watermelon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5B03F44215D38A5000CD539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS6P2FQ228;
+				INFOPLIST_FILE = Watermelon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = glebshendrik.Watermelon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5B03F46215D38A5000CD539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS6P2FQ228;
+				INFOPLIST_FILE = WatermelonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = glebshendrik.WatermelonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watermelon.app/Watermelon";
+			};
+			name = Debug;
+		};
+		B5B03F47215D38A5000CD539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS6P2FQ228;
+				INFOPLIST_FILE = WatermelonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = glebshendrik.WatermelonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watermelon.app/Watermelon";
+			};
+			name = Release;
+		};
+		B5B03F49215D38A5000CD539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS6P2FQ228;
+				INFOPLIST_FILE = WatermelonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = glebshendrik.WatermelonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Watermelon;
+			};
+			name = Debug;
+		};
+		B5B03F4A215D38A5000CD539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS6P2FQ228;
+				INFOPLIST_FILE = WatermelonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = glebshendrik.WatermelonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Watermelon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B03F12215D38A2000CD539 /* Build configuration list for PBXProject "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B03F40215D38A5000CD539 /* Debug */,
+				B5B03F41215D38A5000CD539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B03F42215D38A5000CD539 /* Build configuration list for PBXNativeTarget "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B03F43215D38A5000CD539 /* Debug */,
+				B5B03F44215D38A5000CD539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B03F45215D38A5000CD539 /* Build configuration list for PBXNativeTarget "WatermelonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B03F46215D38A5000CD539 /* Debug */,
+				B5B03F47215D38A5000CD539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B03F48215D38A5000CD539 /* Build configuration list for PBXNativeTarget "WatermelonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B03F49215D38A5000CD539 /* Debug */,
+				B5B03F4A215D38A5000CD539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5B03F21215D38A2000CD539 /* Watermelon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5B03F22215D38A2000CD539 /* Watermelon.xcdatamodel */,
+			);
+			currentVersion = B5B03F22215D38A2000CD539 /* Watermelon.xcdatamodel */;
+			path = Watermelon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5B03F0F215D38A2000CD539 /* Project object */;
+}
