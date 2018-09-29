@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28287D060201D115BCC5F557 /* Pods_Watermelon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0308022012DF3073857EB689 /* Pods_Watermelon.framework */; };
+		2D23E038F1CFEC80A4925FD1 /* Pods_WatermelonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0AAA545A4585D863D137D5 /* Pods_WatermelonUITests.framework */; };
+		4050BF7BBC1F40C9A0AAD772 /* Pods_WatermelonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D560401DD3ED3DC6A15D77B4 /* Pods_WatermelonTests.framework */; };
+		B556EFF0215D5931004C0BA2 /* CenterUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EFEF215D5931004C0BA2 /* CenterUISlider.swift */; };
+		B556EFF2215D59BB004C0BA2 /* LeftUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EFF1215D59BB004C0BA2 /* LeftUISlider.swift */; };
+		B5A1420F215D620900FEC540 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1420E215D620900FEC540 /* HomeViewController.swift */; };
+		B5A14211215D657800FEC540 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A14210215D657800FEC540 /* HomeView.swift */; };
+		B5A14214215D69C100FEC540 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A14213215D69C100FEC540 /* UIView+constraints.swift */; };
+		B5A14216215E7B1600FEC540 /* WatermelonDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A14215215E7B1600FEC540 /* WatermelonDraw.swift */; };
+		B5A14218215E7B9300FEC540 /* WatermelonDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A14217215E7B9300FEC540 /* WatermelonDrawView.swift */; };
 		B5B03F1B215D38A2000CD539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F1A215D38A2000CD539 /* AppDelegate.swift */; };
-		B5B03F1D215D38A2000CD539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F1C215D38A2000CD539 /* ViewController.swift */; };
-		B5B03F20215D38A2000CD539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B03F1E215D38A2000CD539 /* Main.storyboard */; };
 		B5B03F23215D38A2000CD539 /* Watermelon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F21215D38A2000CD539 /* Watermelon.xcdatamodeld */; };
 		B5B03F25215D38A5000CD539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B03F24215D38A5000CD539 /* Assets.xcassets */; };
 		B5B03F28215D38A5000CD539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B03F26215D38A5000CD539 /* LaunchScreen.storyboard */; };
 		B5B03F33215D38A5000CD539 /* WatermelonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F32215D38A5000CD539 /* WatermelonTests.swift */; };
 		B5B03F3E215D38A5000CD539 /* WatermelonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B03F3D215D38A5000CD539 /* WatermelonUITests.swift */; };
+		B5E1A2122160257200F6397B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5E1A2112160257100F6397B /* README.md */; };
+		B5E1A2152160263D00F6397B /* wellbell_demo_ipad12_9.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5E1A2132160263C00F6397B /* wellbell_demo_ipad12_9.gif */; };
+		B5E1A2162160263D00F6397B /* wellbell_demo_se.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5E1A2142160263C00F6397B /* wellbell_demo_se.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0308022012DF3073857EB689 /* Pods_Watermelon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watermelon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0AAA545A4585D863D137D5 /* Pods_WatermelonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatermelonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C96179E9DDE2251FF12FBF8 /* Pods-WatermelonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatermelonUITests/Pods-WatermelonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50F4AC538B0DEFE250B26534 /* Pods-WatermelonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatermelonTests/Pods-WatermelonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66CE0854049919C5DBC0A17B /* Pods-WatermelonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatermelonTests/Pods-WatermelonTests.release.xcconfig"; sourceTree = "<group>"; };
+		9066B9C9F905058342959F60 /* Pods-Watermelon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.debug.xcconfig"; sourceTree = "<group>"; };
+		9D86FB88B810158225DED2B8 /* Pods-Watermelon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.release.xcconfig"; sourceTree = "<group>"; };
+		A2DC552AD1E74405FA76CF8D /* Pods-WatermelonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatermelonUITests/Pods-WatermelonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B556EFEF215D5931004C0BA2 /* CenterUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterUISlider.swift; sourceTree = "<group>"; };
+		B556EFF1215D59BB004C0BA2 /* LeftUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftUISlider.swift; sourceTree = "<group>"; };
+		B5A1420E215D620900FEC540 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B5A14210215D657800FEC540 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B5A14213215D69C100FEC540 /* UIView+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
+		B5A14215215E7B1600FEC540 /* WatermelonDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatermelonDraw.swift; path = Watermelon/WatermelonDraw.swift; sourceTree = SOURCE_ROOT; };
+		B5A14217215E7B9300FEC540 /* WatermelonDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonDrawView.swift; sourceTree = "<group>"; };
 		B5B03F17215D38A2000CD539 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B03F1A215D38A2000CD539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5B03F1C215D38A2000CD539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5B03F1F215D38A2000CD539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B03F22215D38A2000CD539 /* Watermelon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Watermelon.xcdatamodel; sourceTree = "<group>"; };
 		B5B03F24215D38A5000CD539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B03F27215D38A5000CD539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +73,10 @@
 		B5B03F39215D38A5000CD539 /* WatermelonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B03F3D215D38A5000CD539 /* WatermelonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonUITests.swift; sourceTree = "<group>"; };
 		B5B03F3F215D38A5000CD539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E1A2112160257100F6397B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B5E1A2132160263C00F6397B /* wellbell_demo_ipad12_9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wellbell_demo_ipad12_9.gif; sourceTree = "<group>"; };
+		B5E1A2142160263C00F6397B /* wellbell_demo_se.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wellbell_demo_se.gif; sourceTree = "<group>"; };
+		D560401DD3ED3DC6A15D77B4 /* Pods_WatermelonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatermelonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28287D060201D115BCC5F557 /* Pods_Watermelon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4050BF7BBC1F40C9A0AAD772 /* Pods_WatermelonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +100,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D23E038F1CFEC80A4925FD1 /* Pods_WatermelonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B556EFEE215D590E004C0BA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5A14215215E7B1600FEC540 /* WatermelonDraw.swift */,
+				B556EFEF215D5931004C0BA2 /* CenterUISlider.swift */,
+				B556EFF1215D59BB004C0BA2 /* LeftUISlider.swift */,
+				B5A14210215D657800FEC540 /* HomeView.swift */,
+				B5A14217215E7B9300FEC540 /* WatermelonDrawView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5A1420D215D61EE00FEC540 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1420E215D620900FEC540 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B5A14212215D699800FEC540 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5A14213215D69C100FEC540 /* UIView+constraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B5B03F0E215D38A2000CD539 = {
 			isa = PBXGroup;
 			children = (
+				B5E1A2132160263C00F6397B /* wellbell_demo_ipad12_9.gif */,
+				B5E1A2142160263C00F6397B /* wellbell_demo_se.gif */,
+				B5E1A2112160257100F6397B /* README.md */,
 				B5B03F19215D38A2000CD539 /* Watermelon */,
 				B5B03F31215D38A5000CD539 /* WatermelonTests */,
 				B5B03F3C215D38A5000CD539 /* WatermelonUITests */,
 				B5B03F18215D38A2000CD539 /* Products */,
+				BE14A3AFF83AC3FB1E24DE35 /* Pods */,
+				C16BEE8A5FF308AEA45E0E87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +163,10 @@
 		B5B03F19215D38A2000CD539 /* Watermelon */ = {
 			isa = PBXGroup;
 			children = (
+				B5A14212215D699800FEC540 /* Extensions */,
+				B5A1420D215D61EE00FEC540 /* ViewController */,
+				B556EFEE215D590E004C0BA2 /* View */,
 				B5B03F1A215D38A2000CD539 /* AppDelegate.swift */,
-				B5B03F1C215D38A2000CD539 /* ViewController.swift */,
-				B5B03F1E215D38A2000CD539 /* Main.storyboard */,
 				B5B03F24215D38A5000CD539 /* Assets.xcassets */,
 				B5B03F26215D38A5000CD539 /* LaunchScreen.storyboard */,
 				B5B03F29215D38A5000CD539 /* Info.plist */,
@@ -128,6 +193,29 @@
 			path = WatermelonUITests;
 			sourceTree = "<group>";
 		};
+		BE14A3AFF83AC3FB1E24DE35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9066B9C9F905058342959F60 /* Pods-Watermelon.debug.xcconfig */,
+				9D86FB88B810158225DED2B8 /* Pods-Watermelon.release.xcconfig */,
+				50F4AC538B0DEFE250B26534 /* Pods-WatermelonTests.debug.xcconfig */,
+				66CE0854049919C5DBC0A17B /* Pods-WatermelonTests.release.xcconfig */,
+				A2DC552AD1E74405FA76CF8D /* Pods-WatermelonUITests.debug.xcconfig */,
+				4C96179E9DDE2251FF12FBF8 /* Pods-WatermelonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C16BEE8A5FF308AEA45E0E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0308022012DF3073857EB689 /* Pods_Watermelon.framework */,
+				D560401DD3ED3DC6A15D77B4 /* Pods_WatermelonTests.framework */,
+				1A0AAA545A4585D863D137D5 /* Pods_WatermelonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B03F42215D38A5000CD539 /* Build configuration list for PBXNativeTarget "Watermelon" */;
 			buildPhases = (
+				EB65728E281264CC29AE5A83 /* [CP] Check Pods Manifest.lock */,
 				B5B03F13215D38A2000CD539 /* Sources */,
 				B5B03F14215D38A2000CD539 /* Frameworks */,
 				B5B03F15215D38A2000CD539 /* Resources */,
+				A7785A51E1670A6BDC9A7F2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B03F45215D38A5000CD539 /* Build configuration list for PBXNativeTarget "WatermelonTests" */;
 			buildPhases = (
+				5B98306FF93A07A53428DFCE /* [CP] Check Pods Manifest.lock */,
 				B5B03F2A215D38A5000CD539 /* Sources */,
 				B5B03F2B215D38A5000CD539 /* Frameworks */,
 				B5B03F2C215D38A5000CD539 /* Resources */,
@@ -170,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B03F48215D38A5000CD539 /* Build configuration list for PBXNativeTarget "WatermelonUITests" */;
 			buildPhases = (
+				5B493C5A53FC6590124F8E15 /* [CP] Check Pods Manifest.lock */,
 				B5B03F35215D38A5000CD539 /* Sources */,
 				B5B03F36215D38A5000CD539 /* Frameworks */,
 				B5B03F37215D38A5000CD539 /* Resources */,
@@ -232,9 +324,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E1A2122160257200F6397B /* README.md in Resources */,
+				B5E1A2152160263D00F6397B /* wellbell_demo_ipad12_9.gif in Resources */,
+				B5E1A2162160263D00F6397B /* wellbell_demo_se.gif in Resources */,
 				B5B03F28215D38A5000CD539 /* LaunchScreen.storyboard in Resources */,
 				B5B03F25215D38A5000CD539 /* Assets.xcassets in Resources */,
-				B5B03F20215D38A2000CD539 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +348,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B493C5A53FC6590124F8E15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatermelonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B98306FF93A07A53428DFCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatermelonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7785A51E1670A6BDC9A7F2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB65728E281264CC29AE5A83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Watermelon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5B03F13215D38A2000CD539 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B03F1D215D38A2000CD539 /* ViewController.swift in Sources */,
+				B5A14214215D69C100FEC540 /* UIView+constraints.swift in Sources */,
+				B5A1420F215D620900FEC540 /* HomeViewController.swift in Sources */,
+				B556EFF0215D5931004C0BA2 /* CenterUISlider.swift in Sources */,
+				B5A14216215E7B1600FEC540 /* WatermelonDraw.swift in Sources */,
 				B5B03F23215D38A2000CD539 /* Watermelon.xcdatamodeld in Sources */,
+				B5A14211215D657800FEC540 /* HomeView.swift in Sources */,
+				B556EFF2215D59BB004C0BA2 /* LeftUISlider.swift in Sources */,
 				B5B03F1B215D38A2000CD539 /* AppDelegate.swift in Sources */,
+				B5A14218215E7B9300FEC540 /* WatermelonDrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +472,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5B03F1E215D38A2000CD539 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5B03F1F215D38A2000CD539 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5B03F26215D38A5000CD539 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,11 +601,13 @@
 		};
 		B5B03F43215D38A5000CD539 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9066B9C9F905058342959F60 /* Pods-Watermelon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BS6P2FQ228;
 				INFOPLIST_FILE = Watermelon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +621,13 @@
 		};
 		B5B03F44215D38A5000CD539 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D86FB88B810158225DED2B8 /* Pods-Watermelon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BS6P2FQ228;
 				INFOPLIST_FILE = Watermelon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,12 +641,14 @@
 		};
 		B5B03F46215D38A5000CD539 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F4AC538B0DEFE250B26534 /* Pods-WatermelonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BS6P2FQ228;
 				INFOPLIST_FILE = WatermelonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,12 +664,14 @@
 		};
 		B5B03F47215D38A5000CD539 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CE0854049919C5DBC0A17B /* Pods-WatermelonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BS6P2FQ228;
 				INFOPLIST_FILE = WatermelonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,11 +687,13 @@
 		};
 		B5B03F49215D38A5000CD539 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DC552AD1E74405FA76CF8D /* Pods-WatermelonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BS6P2FQ228;
 				INFOPLIST_FILE = WatermelonUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,11 +709,13 @@
 		};
 		B5B03F4A215D38A5000CD539 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C96179E9DDE2251FF12FBF8 /* Pods-WatermelonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BS6P2FQ228;
 				INFOPLIST_FILE = WatermelonUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
